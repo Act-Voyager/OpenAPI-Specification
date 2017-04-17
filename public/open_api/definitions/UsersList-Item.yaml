@@ -1,0 +1,7 @@
+description: >
+  Key-Value pair for listing Users.
+type: object
+properties:
+  uuid:     {type: string, format: uuid}
+  label:    {type: string}
+  href:     {type: string, format: uri}

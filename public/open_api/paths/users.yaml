@@ -8,4 +8,4 @@ get: # XXX this endpoint MUST NOT be available.publicly
       schema:
         type: array
         items:
-          $ref: "../definitions/User-List-Item.yaml"
+          $ref: "../definitions/UsersList-Item.yaml"

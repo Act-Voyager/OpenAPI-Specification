@@ -1,0 +1,13 @@
+get:
+  parameters:
+    - name: uuid
+      description: the UUID for the requested User object
+      in: path
+      type: string
+      format: uuid
+      required: true
+  responses:
+    200:
+      description: Event details
+      schema:
+        $ref: "../definitions/User.yaml"

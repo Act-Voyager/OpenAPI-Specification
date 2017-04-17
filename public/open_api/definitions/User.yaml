@@ -1,0 +1,16 @@
+description: |
+  An object representing a User.
+type: object
+properties:
+  first_name:   {type: string}
+  last_name:    {type: string}
+  nick_name:    {type: string}
+  pseudonymous: {type: boolean}
+  country:      {type: string}
+  town:         {type: string}
+  email:        {type: string, format: email}
+  gpg_key_id:   {type: string}
+  language:     {type: string}
+  timezone:     {type: string}
+  company:      {type: string}
+  company_url:  {type: string, format: uri}

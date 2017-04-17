@@ -1,0 +1,11 @@
+get: # XXX this endpoint MUST NOT be available.publicly
+  summary: List off Users
+  description: |
+    Gets a list off all users in the system.
+  responses:
+    200:
+      description: List of User-List items
+      schema:
+        type: array
+        items:
+          $ref: "../definitions/User-List-Item.yaml"

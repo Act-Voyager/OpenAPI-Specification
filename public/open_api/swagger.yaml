@@ -17,7 +17,11 @@ info:
 paths:
   /users:
     $ref: "paths/users.yaml"
+  /users/{uuid}:
+    $ref: "paths/users-{uuid}.yaml"
 
 definitions:
+  User:
+    $ref: "definitions/User.yaml"
   UsersList-Item:
     $ref: "definitions/UsersList-Item.yaml"

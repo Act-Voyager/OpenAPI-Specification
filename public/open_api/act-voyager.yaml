@@ -14,6 +14,10 @@ info:
     itself. However this is being implementd, following the descriptions of this
     API will make it easier to swap back-ends.
 
-paths: {}
+paths:
+  /users:
+    $ref: "paths/users.yaml"
 
-definitions: {}
+definitions:
+  UsersList-Item:
+    $ref: "definitions/UsersList-Item.yaml"

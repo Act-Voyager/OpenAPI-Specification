@@ -1,0 +1,19 @@
+---
+swagger: "2.0"
+info:
+  title: ACT Voyager API
+  version: 0.01b
+  description: |
+    The Act Voyager API will provide an interface to the current legacy ACT, A
+    Conference Toolkit.
+    
+    This api-description can be used by authors of clients who desire to build
+    their own front-end to ACT.
+    
+    The main purpose, however, is to be the guide for developing the REST-api
+    itself. However this is being implementd, following the descriptions of this
+    API will make it easier to swap back-ends.
+
+paths: {}
+
+definitions: {}
